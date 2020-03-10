@@ -1,0 +1,233 @@
+body{
+	margin: 0;
+	overflow-x: hidden;
+	font-family: sans-serif;
+}
+/*!Navibalk!*/
+.Navi{
+	background-color: white;
+	width: 100%;
+	height: 70px;
+	z-index: 2;
+}
+.but{
+	position: absolute;
+	top: 10px;
+}
+.but a{
+	float: left;
+	margin-left: 5px;
+	text-decoration: none;
+	border: 1px solid white;
+	padding: 14px 16px;
+	min-width: 100px;
+	text-align: center;
+	color: black;
+}
+.but li{
+	font-weight: bold;
+	list-style: none;
+}
+.but a:hover{
+	background-color: #ff4d4d;
+	color: white;
+}
+#Logo{
+	position: absolute;
+	left: 770px;
+	z-index: 2;
+}
+.wave{
+	position: absolute;
+	background-image: url("../IMG/Versier.png");
+	background-repeat: no-repeat;
+	width: 101%;
+	height: 10px;
+	top: 70px;
+	left: -5px;
+	z-index: 1;
+}
+/*!Content! (1320)*/
+.Content1{
+	background-image: url("../IMG/background.png");
+	background-size: cover;
+	position: relative;
+	width: 100%;
+	height: 1220px;
+}
+/*Tussenschot()*/
+.content2{
+	position: relative;
+	width: 100%;
+	height: 100px;
+}
+/*Over ons, reclame en ?*/
+.content3{
+	position: relative;
+	background-color: #FF99CC;
+	width: 100%;
+	height: 69%;
+}
+.Ons{
+	position: absolute;
+	background-color: white;
+	border-radius: 3%;
+	width: 950px;
+	height: 300px;
+
+	top: 50px;
+	left: 250px;
+}
+.Ons img{
+	position: absolute;
+	background-color: red;
+	border-radius: 3%;
+	width: 270px;
+	height: 270px;
+
+	top: 5%;
+	left: 20px;
+}
+.Ons p{
+	position: absolute;
+	width: 620px;
+	height: 270px;
+
+	right: 10px;
+}
+/*Foto collage*/
+.Collage{
+	position: absolute;
+	background-color: white;
+	border-radius: 3%;
+	width: 950px;
+	height: 400px;
+
+	top: 370px;
+	left: 250px;
+}
+.Collage-back{
+	position: absolute;
+	background-color: black;
+	width: 930px;
+	height: 380px;
+
+	top: 10px;
+	left: 10px;
+}
+.Cell-1{
+	position: absolute;
+	width: 350px;
+	height: 360px;
+
+	top: 10px;
+	left: 10px;
+}
+#foto1{
+	position: absolute;
+	background-color: yellow;
+	background-image: url("../IMG/Collage/Foto1.png"); 
+	width: 350px;
+	height: 180px;
+}
+#foto2{
+	position: absolute;
+	background-color: red;
+	background-image: url("../IMG/Collage/Foto2.png"); 
+	width: 170px;
+	height: 170px;
+
+	top: 190px;
+}
+#foto3{
+	position: absolute;
+	background-color: green;
+	background-image: url("../IMG/Collage/Foto3.png"); 
+	width: 170px;
+	height: 170px;
+
+	top: 190px;
+	left: 180px;
+}
+.Cell-2{
+	position: absolute;
+	width: 190px;
+	height: 360px;
+
+	top: 10px;
+	left: 370px;
+}
+#foto4{
+	position: absolute;
+	background-color: gold;
+	background-image: url("../IMG/Collage/Foto4.png"); 
+	width: 190px;
+	height: 360px;
+}
+.Cell-3{
+	position: absolute;
+	width: 350px;
+	height: 360px;
+
+	top: 10px;
+	left: 570px;
+}
+#foto5{
+	position: absolute;
+	background-color: purple; 
+	background-image: url("../IMG/Collage/Foto5.png"); 
+	width: 350px;
+	height: 180px;
+
+	top: 180px;
+}
+#foto6{
+	position: absolute;
+	background-color: grey;
+	background-image: url("../IMG/Collage/Foto6.png"); 
+	width: 170px;
+	height: 170px;	
+}
+#foto7{
+	position: absolute;
+	background-color: blue;
+	background-image: url("../IMG/Collage/Foto7.png"); 
+	width: 170px;
+	height: 170px;
+
+	left: 180px;
+}
+/*Foto collage end*/
+.AD{
+	background-image: url(../IMG/Adtest.gif);
+	background-color: white;
+	width: 220px;
+	height: 600px;
+
+	position: absolute;
+	top: 50px;
+	left: 85%;
+}
+/*!Footer!*/
+.Footer{
+	background-color: #FF99CC;
+	position: relative;
+	width: 100%;
+	height: 130px;
+	color: white;
+}
+.Footer h3{
+	position: absolute;
+	left: 40%;
+	top: 70px;
+}
+.Contact{
+	position: absolute;
+	right: 100px;
+	top: 15px;
+}
+.Volg{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}

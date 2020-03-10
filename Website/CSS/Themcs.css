@@ -1,0 +1,161 @@
+body{
+	margin: 0;
+	overflow-x: hidden;
+	font-family: sans-serif;
+}
+/*!Navibalk!*/
+.Navi{
+	background-color: white;
+	width: 100%;
+	height: 70px;
+	z-index: 2;
+}
+.but{
+	position: absolute;
+	top: 10px;
+}
+.but a{
+	float: left;
+	margin-left: 5px;
+	text-decoration: none;
+	border: 1px solid white;
+	padding: 14px 16px;
+	min-width: 100px;
+	text-align: center;
+	color: black;
+}
+.but li{
+	font-weight: bold;
+	list-style: none;
+}
+.but a:hover{
+	background-color: #ff4d4d;
+	color: white;
+}
+#Logo{
+	position: absolute;
+	left: 770px;
+	z-index: 2;
+}
+.wave{
+	position: absolute;
+	background-image: url("../IMG/Versier.png");
+	background-repeat: no-repeat;
+	width: 101%;
+	height: 10px;
+	top: 70px;
+	left: -5px;
+	z-index: 1;
+}
+/*!Content! (1320)*/
+.Content1{
+	background-image: url("../IMG/background.png");
+	background-size: cover;
+	position: relative;
+	width: 100%;
+	height: 1120px;
+}
+/*Tussenschot()*/
+.content2{
+	position: relative;
+	width: 100%;
+	height: 100px;
+}
+/*Thema producten, reclame en ?*/
+.content3{
+	position: relative;
+	background-color: #FF99CC;
+	width: 100%;
+	height: 65%;
+}
+.TThema{
+	position: absolute;
+	background-color: white;
+	border-radius: 3%;
+	width: 850px;
+	height: 600px;
+
+	top: 50px;
+	left: 350px;
+}
+.TThema h3{
+	position: absolute;
+	color: white;
+	top: -55px;
+}
+.product-content{
+	width: 830px;
+	height: 580px;
+
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.producten{
+	float: left;
+	margin-left: 14px;
+	margin-top: 20px;
+	height: 220px;
+}
+.producten:hover .info{
+	height: 220px;
+}
+.info{
+	opacity: 0.8;
+	position: absolute;
+	background-color: #ffbb99;
+	border-radius: 7px;
+	width: 150px;
+	height: 0px;
+	transition: .5s;
+	overflow: hidden;
+}
+.text{
+	text-align: center;
+	color: black;
+}
+.producten img{
+	border-radius: 7px;
+	width: 150px;
+	height: 150px;
+}
+.producten h4{
+	margin-top: -1px;
+	width: 150px;
+	height: 20px;
+}
+#prijs{
+	text-align: center;
+}
+.AD{
+	background-image: url(../IMG/Adtest.gif);
+	background-color: white;
+	width: 220px;
+	height: 600px;
+
+	position: absolute;
+	top: 50px;
+	left: 85%;
+}
+/*!Footer!*/
+.Footer{
+	background-color: #FF99CC;
+	position: relative;
+	width: 100%;
+	height: 130px;
+	color: white;
+}
+.Footer h3{
+	position: absolute;
+	left: 40%;
+	top: 70px;
+}
+.Contact{
+	position: absolute;
+	right: 100px;
+	top: 15px;
+}
+.Volg{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}

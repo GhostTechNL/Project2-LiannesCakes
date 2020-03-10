@@ -1,0 +1,214 @@
+body{
+	margin: 0;
+	overflow-x: hidden;
+	font-family: sans-serif;
+}
+/*!Navibalk!*/
+.Navi{
+	background-color: white;
+	width: 100%;
+	height: 70px;
+	z-index: 2;
+}
+.but{
+	position: absolute;
+	top: 10px;
+}
+.but a{
+	float: left;
+	margin-left: 5px;
+	text-decoration: none;
+	border: 1px solid white;
+	padding: 14px 16px;
+	min-width: 100px;
+	text-align: center;
+	color: black;
+}
+.but li{
+	font-weight: bold;
+	list-style: none;
+}
+.but a:hover{
+	background-color: #ff4d4d;
+	color: white;
+}
+#Logo{
+	position: absolute;
+	left: 770px;
+	z-index: 2;
+}
+.wave{
+	position: absolute;
+	background-image: url("../IMG/Versier.png");
+	background-repeat: no-repeat;
+	width: 101%;
+	height: 10px;
+	top: 70px;
+	left: -5px;
+	z-index: 1;
+}
+/*!Content! (1320)*/
+.Content1{
+	background-image: url("../IMG/background.png");
+	background-size: cover;
+	position: relative;
+	width: 100%;
+	height: 1320px;
+}
+/*Promo board en info (360)*/
+.content2{
+	position: relative;
+	width: 100%;
+	height: 360px;
+}
+.Promoslide, .dotjes{
+	position: absolute;
+	top: 40px;
+	left: 10%;
+}
+.Promoslide img{
+	background-color: white;
+	border-radius: 10%; 
+	width: 600px;
+	height: 300px;
+	box-shadow: inset 1px 1px 30px -4px black;
+}
+.Info{
+	position: absolute;
+	background-color: white;
+	border: 1px solid white;
+	border-radius: 10%;
+	width: 400px;
+	height: 300px;
+
+	top: 40px;
+	right: 10%;
+}
+.dotjes{
+	left: 27%;
+	top: 330px;
+}
+.dot, .active{
+	float: left;
+	margin-left: 2px;
+	cursor: pointer;
+	background-color: white;
+	border-radius: 50%;
+	width: 15px;
+	height: 15px;
+}
+.fade{
+	animation: fadei 2s;
+}
+@keyframes fadei{
+	from{
+		opacity: 0.7;
+	}
+	to{
+		opacity: 1;
+	}
+}
+.active, .dot:hover{
+	background-color: #737373;
+}
+.Info h3, p{
+	position: relative;
+	margin-left: 10px;
+}
+/*pop item, reclame en ?*/
+.content3{
+	position: relative;
+	background-color: #FF99CC;
+	width: 100%;
+	height: 50%;
+}
+.pop{
+	width: 1000px;
+	height: 150px;
+
+	position: absolute;
+	top: 4%;
+	left: 5%;
+}
+.deco{
+	position: absolute;
+	background-color: white;
+	border: 1px solid white;
+	border-radius: 20%;
+	width: 150px;
+	height: 150px;
+	z-index: 3;
+}
+.deco2{
+	position: absolute;
+	background-color: white;
+	border: 1px solid white;
+	width: 90%;
+	height: 150px;
+	left: 30px;
+}
+.deco3{
+	position: absolute;
+	background-color: white;
+	border: 1px solid white;
+	border-radius: 20%;
+	width: 150px;
+	height: 150px;
+	right: 1px;
+}
+.Sbut{
+	position: absolute;
+	top: 200px;
+	left: 3%;
+}
+.Sbut li{
+	float: left;
+	list-style: none;
+	margin-left: 30px;
+	border: 1px solid white;
+	background-color: white;
+	border-radius: 15%;
+	width: 480px;
+	height: 290px;
+}
+.Sbut img{
+	border: 1px solid white;
+	background-color: white;
+	border-radius: 15%;
+	width: 480px;
+	height: 290px;
+}
+/* #E493FF */
+.AD{
+	background-image: url(../IMG/Adtest.gif);
+	background-color: white;
+	width: 220px;
+	height: 600px;
+
+	position: absolute;
+	top: 4%;
+	left: 85%;
+}
+/*!Footer!*/
+.Footer{
+	background-color: #FF99CC;
+	position: relative;
+	width: 100%;
+	height: 130px;
+	color: white;
+}
+.Footer h3{
+	position: absolute;
+	left: 40%;
+	top: 70px;
+}
+.Contact{
+	position: absolute;
+	right: 100px;
+	top: 15px;
+}
+.Volg{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}

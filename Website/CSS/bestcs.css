@@ -1,0 +1,275 @@
+body{
+	margin: 0;
+	overflow-x: hidden;
+	font-family: sans-serif;
+}
+/*!Navibalk!*/
+.Navi{
+	background-color: white;
+	width: 100%;
+	height: 70px;
+	z-index: 2;
+}
+.but{
+	position: absolute;
+	top: 10px;
+}
+.but a{
+	float: left;
+	margin-left: 5px;
+	text-decoration: none;
+	border: 1px solid white;
+	padding: 14px 16px;
+	min-width: 100px;
+	text-align: center;
+	color: black;
+}
+.but li{
+	font-weight: bold;
+	list-style: none;
+}
+.but a:hover{
+	background-color: #ff4d4d;
+	color: white;
+}
+#Logo{
+	position: absolute;
+	left: 770px;
+	z-index: 2;
+}
+.wave{
+	position: absolute;
+	background-image: url("../IMG/Versier.png");
+	background-repeat: no-repeat;
+	width: 101%;
+	height: 10px;
+	top: 70px;
+	left: -5px;
+	z-index: 1;
+}
+/*!Content! (1320)*/
+.Content1{
+	background-image: url("../IMG/background.png");
+	background-size: cover;
+	position: relative;
+	width: 100%;
+	height: 1120px;
+}
+/* Tussenschot */
+.content2{
+	position: relative;
+	width: 100%;
+	height: 100px;
+}
+/*Bestellen en betaal overzicht, reclame en ?*/
+.content3{
+	position: relative;
+	background-color: #FF99CC;
+	width: 100%;
+	height: 65%;
+}
+.Bestel{
+	position: absolute;
+	background-color: white;
+	border-radius: 3%;
+	width: 1050px;
+	height: 650px;
+
+	top: 50px;
+	left: 150px;
+}
+.Bestel label{
+	position: absolute;
+	top: 15px;
+	left: 10px;
+}
+/* ---bestel overzicht--- */
+.drop{
+	position: absolute;
+	text-decoration: none;
+	border: none;
+	background-color: #ff4d4d;
+	color: white;
+	padding: 10px;
+	z-index: 2;
+	left: 18%;
+}
+.drop:hover{
+	background-color: #ff1a1a;
+}
+.down{
+	animation: downin 2s;
+}
+@keyframes downin{
+	from{
+		height: 0px;
+	}
+	to{
+		height: 300px;
+	}
+}
+.drop-product{
+	display: none;
+	position: absolute;
+	background-color: #ffccb3;
+	width: 510px;
+	height: 300px;
+	z-index: 1;
+
+	top: 10px;
+	left: 10px;
+
+	overflow: auto;
+	overflow-x: hidden; 
+	white-space: nowrap;
+}
+/* producten */
+.product{
+	font-weight: bold;
+	border: 1px solid grey;
+	width: 100%;
+	height: 140px;
+	cursor: pointer;
+}
+.product:hover{
+	background-color: #ffbb99;
+}
+.product img{
+	background-color: black;
+	width: 125px;
+	height: 125px;
+
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.product h3 ,.overzicht h3{
+	margin-top: -110px;
+	margin-left: 220px;
+	color: black;
+}
+.product p, #prijs{
+	margin-left: 260px;
+	color: black;
+}
+.Bestelform{
+	position: absolute;
+	width: 510px;
+	height: 460px;
+
+	top: 45px;
+	left: 10px;
+
+	overflow: auto;
+	overflow-x: hidden; 
+	white-space: nowrap;
+}
+.overzicht{
+	border: 1px solid grey;
+	width: 100%;
+	height: 150px;
+}
+.overzicht img{
+	background-color: black;
+	width: 140px;
+	height: 140px;
+
+	margin-top: 5px;
+	margin-left: 5px;
+}
+#del{
+	color: red;
+	margin-left: 480px;
+	margin-top: -40px;
+	cursor: pointer;
+}
+.Bedragen{
+	position: absolute;
+	width: 510px;
+	height: 130px;
+	top: 590px;
+	left: 350px;
+}
+.Bedragen h5{
+	margin-top: -20px;
+}
+/* Gegevens */
+.Gegevens{
+	position: absolute;
+	width: 510px;
+	height: 580px;
+
+	border-left: 5px solid black;
+
+	top: 90px;
+	left: 675px;
+}
+.Gegevens label{
+	position: absolute;
+	top: -25px;
+	left: 10px;
+}
+.Gegevens input[type=text],input[type=number],textarea{
+	border-radius: 7px;
+	border: 1px solid black;
+	padding: 7px;
+	margin-top: 5px;
+	margin-left: 1.5px;
+}
+.Gegevens textarea{
+	width: 96%;
+	height: 100px;
+}
+.Gegevens input[type=submit]{
+	border: none;
+	background-color: #ff4d4d;
+	border-radius: 7px;
+	color: white;
+	font-weight: bold;
+	padding: 14px 25px;
+
+	margin-top: 200px;
+	margin-left: 40%;
+}
+.Gegevens input[type=submit]:hover{
+	border: none;
+	background-color: red;
+}
+#emad,#code,#telefoon{
+	width: 96%;
+}
+#straat{
+	width: 234px;
+}
+.AD{
+	background-image: url(../IMG/Adtest.gif);
+	background-color: white;
+	width: 220px;
+	height: 600px;
+
+	position: absolute;
+	top: 50px;
+	left: 85%;
+}
+/*!Footer!*/
+.Footer{
+	background-color: #FF99CC;
+	position: relative;
+	width: 100%;
+	height: 130px;
+	color: white;
+}
+.Footer h3{
+	position: absolute;
+	left: 40%;
+	top: 70px;
+}
+.Contact{
+	position: absolute;
+	right: 100px;
+	top: 15px;
+}
+.Volg{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
